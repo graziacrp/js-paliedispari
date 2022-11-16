@@ -9,6 +9,12 @@ console.log("La tua scelta è:", pariODispari);
 let numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
 
 
+//Sommo i due numeri
+
+let somma = numeroUtente + numerocasuale();
+console.log(somma);
+
+
 
 
 
@@ -22,10 +28,7 @@ function numerocasuale() {
 
 Math.round(Math.random() * 4) + 1;
 
-//Sommo i due numeri
 
-let somma = numeroUtente + numerocasuale();
-console.log(somma);
 
 
 //Stabilisco se la somma dei due numeri è pari o dispari (usando la funzione)
