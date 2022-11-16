@@ -14,7 +14,7 @@ let numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
 
 
 //Genero un numero casuale da 1 a 5 usando la funzione
-function casuale() {
+function numerocasuale() {
     num = Math.round(Math.random() * 5);
     document.getElementById("casuale").innerHTML = "Numero casuale " + num;
 }
@@ -24,7 +24,7 @@ Math.round(Math.random() * 4) + 1;
 
 //Sommo i due numeri
 
-let somma = numeroUtente + casuale();
+let somma = numeroUtente + numerocasuale();
 console.log(somma);
 
 
