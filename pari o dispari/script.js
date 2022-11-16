@@ -1,17 +1,14 @@
 //Chiedo all'utente di scegliere un numero pari o dispari
 let pariODispari = prompt("Vuoi un numero pari o dispari?");
 
-//Devo capire se l'utente ha scelto un numero pari o dispari, quindi creo una variabile
+console.log ("La tua scelta è:", pariODispari);
 
-let sceltaUtente;
+let numeroUtente = parseInt (prompt("Inserisci un numero da 1 a 5"));
 
-if (pariODispari == "numeropari") {
-    sceltaUtente = vero;
-} else if (pariODispari == "numerodispari") {
-    sceltaUtente = falso;
-}
 
-let numeroUtente = prompt("Inserisci un numero da 1 a 5");
+
+
+
 
 //Generare un numero casuale da 1 a 5 usando la funzione
 function casuale() {
@@ -25,8 +22,8 @@ Math.round(Math.random() * 4) + 1;
 
 //Stabiliamo se il numero è pari o dispari 
 
-function numeropari(numeroFinale) {
-    if (numeroFinale % 2 == 0) {
+function numeropari(pariODispari) {
+    if (pariODispari % 2 == 0) {
         risultato = vero;
     } else {
         risultato = falso;
