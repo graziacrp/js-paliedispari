@@ -16,7 +16,7 @@ let numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
 //Genero un numero casuale da 1 a 5 usando la funzione
 function numerocasuale() {
     num = Math.round(Math.random() * 5);
-    document.getElementById("casuale").innerHTML = "Numero casuale " + num;
+    
 }
 
 
@@ -38,7 +38,7 @@ function pari(numero) {
         console.log("il numero risultato è" + numero);
     }
 
-    return risultato;
+    return risultato = "numero casuale" + num
 }
 
 //Dichiaro chi ha vinto
