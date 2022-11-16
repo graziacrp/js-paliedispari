@@ -5,9 +5,9 @@ let pariODispari = prompt("Vuoi un numero pari o dispari?");
 
 let sceltaUtente;
 
-if (pariODispari == "pari") {
+if (pariODispari == "numeropari") {
     sceltaUtente = vero;
-} else if (pariODispari == "dispari") {
+} else if (pariODispari == "numerodispari") {
     sceltaUtente = falso;
 }
 
@@ -23,17 +23,35 @@ function casuale() {
 Math.round(Math.random()*4)+1;
 
 
+//Stabiliamo se il numero è pari o dispari 
+
+function numeroPari(numeroFinale){
+    if(numeroFinale % 2 == 0){
+        return pari = vero;
+    } else {
+        return dispari = falso;
+    }
+}
+
+
+
+
+
+
+
 
 
 
 
 //Sommo i due numeri
 
-let somma = numeroUtente + num;
+do {
+	let
+} while (condition); sommaNumeri = (numeroUtente + num);
 
 //Se l'utente sceglie un numero uguale alla funzione numeroPari, ha vinto. altrimenti ha perso   (?)
 
-if (sceltaUtente == numeroPari (somma)) {
+if (sceltaUtente == numeroFinale (somma)) {
     console.log ("Congratulazioni, hai vinto!");
 } else {
     console.log ("Mi dispiace, hai perso..");
