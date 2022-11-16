@@ -55,7 +55,7 @@ if (numeropari(somma) === pariOdispari){
 let somma = sceltaUtente + numeroCasuale ();
 console.log (somma);
 
-//Se l'utente sceglie un numero uguale alla funzione numeroPari, ha vinto. altrimenti ha perso   (?)
+//Se l'utente sceglie un numero uguale alla funzione numeroPpri, ha vinto. altrimenti ha perso   (?)
 
 if (sceltaUtente == numeroFinale (somma)) {
     console.log ("Congratulazioni, hai vinto!");
