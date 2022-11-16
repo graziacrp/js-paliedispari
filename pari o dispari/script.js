@@ -11,33 +11,33 @@ if (pariODispari == "numeropari") {
     sceltaUtente = falso;
 }
 
-let numeroUtente = prompt ("Inserisci un numero da 1 a 5");
+let numeroUtente = prompt("Inserisci un numero da 1 a 5");
 
 //Generare un numero casuale da 1 a 5 usando la funzione
 function casuale() {
     num = Math.round(Math.random() * 5);
-    document.getElementById("casuale").innerHTML ="Numero casuale " + num;
+    document.getElementById("casuale").innerHTML = "Numero casuale " + num;
 }
 
 
-Math.round(Math.random()*4)+1;
+Math.round(Math.random() * 4) + 1;
 
 
 //Stabiliamo se il numero è pari o dispari 
 
-function numeropari(numeroFinale){
-    if(numeroFinale % 2 == 0){
+function numeropari(numeroFinale) {
+    if (numeroFinale % 2 == 0) {
         risultato = vero;
     } else {
-        risultato= falso;
+        risultato = falso;
     }
 }
 
-if (numeropari(somma) === pariOdispari){
+if (numeropari(somma) === pariOdispari) {
 
     alert("hai vinto");
 } else {
-    
+
     alert("hai perso");
 }
 
@@ -52,15 +52,15 @@ if (numeropari(somma) === pariOdispari){
 
 //Sommo i due numeri
 
-let somma = sceltaUtente + numeroCasuale ();
-console.log (somma);
+let somma = sceltaUtente + numeroCasuale();
+console.log(somma);
 
 //Se l'utente sceglie un numero uguale alla funzione numeroPpri, ha vinto. altrimenti ha perso   (?)
 
-if (sceltaUtente == numeroFinale (somma)) {
-    console.log ("Congratulazioni, hai vinto!");
+if (sceltaUtente == numeroFinale(somma)) {
+    console.log("Congratulazioni, hai vinto!");
 } else {
-    console.log ("Mi dispiace, hai perso..");
+    console.log("Mi dispiace, hai perso..");
 }
 
 
