@@ -11,12 +11,38 @@ if (pariODispari == "pari") {
     sceltaUtente = falso;
 }
 
-let numeroUtente = parseInt(prompt ("Inserisci un numero da 1 a 5"));
+let numeroUtente = prompt ("Inserisci un numero da 1 a 5");
 
-let num = generaNumeroRandom (2, 5);
+
+function casuale() {
+    num = Math.round(Math.random() * 5);
+    document.getElementById("casuale").innerHTML ="Numero casuale " + num;
+}
+
+
+Math.round(Math.random()*4)+1;
+
+
+
+
+
 
 //Sommo i due numeri
 
 let somma = numeroUtente + num;
+
+//Se l'utente sceglie un numero uguale alla funzione numeroPari, ha vinto. altrimenti ha perso   (?)
+
+if (sceltaUtente == numeroPari (somma)) {
+    console.log ("Congratulazioni, hai vinto!");
+} else {
+    console.log ("Mi dispiace, hai perso..");
+}
+
+
+
+
+
+
 
 
