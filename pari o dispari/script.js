@@ -13,7 +13,7 @@ if (pariODispari == "pari") {
 
 let numeroUtente = prompt ("Inserisci un numero da 1 a 5");
 
-
+//Generare un numero casuale da 1 a 5 usando la funzione
 function casuale() {
     num = Math.round(Math.random() * 5);
     document.getElementById("casuale").innerHTML ="Numero casuale " + num;
