@@ -25,14 +25,21 @@ Math.round(Math.random()*4)+1;
 
 //Stabiliamo se il numero è pari o dispari 
 
-function numeroPari(numeroFinale){
+function numeropari(numeroFinale){
     if(numeroFinale % 2 == 0){
-        return pari = vero;
+        risultato = vero;
     } else {
-        return dispari = falso;
+        risultato= falso;
     }
 }
 
+if (numeropari(somma) === pariOdispari){
+
+    alert("hai vinto");
+} else {
+    
+    alert("hai perso");
+}
 
 
 
@@ -45,9 +52,8 @@ function numeroPari(numeroFinale){
 
 //Sommo i due numeri
 
-do {
-	let
-} while (condition); sommaNumeri = (numeroUtente + num);
+let somma = sceltaUtente + numeroCasuale ();
+console.log (somma);
 
 //Se l'utente sceglie un numero uguale alla funzione numeroPari, ha vinto. altrimenti ha perso   (?)
 
