@@ -11,4 +11,12 @@ if (pariODispari == "pari") {
     sceltaUtente = falso;
 }
 
+let numeroUtente = parseInt(prompt ("Inserisci un numero da 1 a 5"));
+
+let num = generaNumeroRandom (2, 5);
+
+//Sommo i due numeri
+
+let somma = numeroUtente + num;
+
 
